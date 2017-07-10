@@ -1,0 +1,29 @@
+title:            "Kmbean(一直特立独行的猪)"
+description:      "一直特立独行的猪"
+url:              # Site url, without a slash at the end.
+signoff:          "Kmbean" # Your name
+facebook_appid:   # APP ID for like button, remove from /_includes/share.html if unwanted.
+google_analytics: # Set tracking, remove from /javascripts/basic.js if unwanted.
+share:            false # Turn on twitter and facebook share buttons
+
+links:
+  - name:         关于我
+    url:          /about
+  - name:         博客
+    url:          http://kmbean.github.io
+    external:     true
+  - name:         电子邮件
+    url:          mailto:me@kmbean.com
+    external:     true
+  - name:         GitHub
+    url:          http://github.com/kmbean
+    external:     true
+
+highlighter:      rouge
+permalink:        pretty
+markdown:         kramdown
+encoding:         utf-8
+redcarpet:
+  extensions:
+    - smart
+
